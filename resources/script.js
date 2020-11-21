@@ -1,21 +1,21 @@
 // PRODUCTS STORAGE
 const Products = [
-  {name: 'apple pie', price: 100, image: 'images/apple-pie.webp', category: 'fluffy'},
+  {name: 'apple pie', price: 100, image: 'images/apple-pie.gif', category: 'fluffy'},
   {name: 'blueberry', price: 130, image: 'images/blueberry.jpg', category: 'soft'},
   {name: 'cake', price: 110, image: 'images/cake.jpg', category: 'tasty'},
   {name: 'choco top', price: 120, image: 'images/choco-top.jpg', category: 'fluffy'},
-  {name: 'cinnamon roll', price: 125, image: 'images/cinnamon-roll.webp', category: 'soft'},
-  {name: 'cupcake', price: 146, image: 'images/cupcake.webp', category: 'tasty'},
+  {name: 'cinnamon roll', price: 125, image: 'images/cinnamon-roll.gif', category: 'soft'},
+  {name: 'cupcake', price: 146, image: 'images/cupcake.gif', category: 'tasty'},
   {name: 'donuts', price: 183, image: 'images/donuts.jpg', category: 'fluffy'},
   {name: 'farmers bread', price: 90, image: 'images/farmers-bread.jpg', category: 'soft'},
-  {name: 'long bread', price: 98, image: 'images/long-bread.webp', category: 'tasty'},
-  {name: 'mixed berries', price: 113, image: 'images/mixed-berries.webp', category: 'fluffy'},
+  {name: 'long bread', price: 98, image: 'images/long-bread.gif', category: 'tasty'},
+  {name: 'mixed berries', price: 113, image: 'images/mixed-berries.gif', category: 'fluffy'},
   {name: 'muffin', price: 150, image: 'images/muffin.jpg', category: 'soft'},
   {name: 'pretzel', price: 156, image: 'images/pretzel.jpg', category: 'tasty'},
   {name: 'roll', price: 103, image: 'images/roll.jpg', category: 'fluffy'},
-  {name: 'spanish bread', price: 172, image: 'images/spanish-bread.webp', category: 'soft'},
+  {name: 'spanish bread', price: 172, image: 'images/spanish-bread.gif', category: 'soft'},
   {name: 'sweet bread', price: 121, image: 'images/sweet-bread.jpg', category: 'fluffy'},
-  {name: 'tasty bread', price: 164, image: 'images/tasty-bread.webp', category: 'tasty'}
+  {name: 'tasty bread', price: 164, image: 'images/tasty-bread.gif', category: 'tasty'}
   ];
   
   const Cart = [];
