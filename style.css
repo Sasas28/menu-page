@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Sans-Serif;
+}
+header {
+  margin-bottom: 20px;
+}
+.border {
+  border: 1px solid red;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.left, .right {
+  padding: 2px;
+}
+.left, .right {
+  margin: 0 2px 0 2px;
+}
+.left {
+  float: left;
+  width: 45%;
+}
+.right {
+  float: right;
+  width: 45%;
+}
+.clear-fix {
+  clear: both;
+}
+.active {
+  background: red;
+  color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/***********HEADER STYLE***********/
+.searchbar {
+  display: block;
+  width:;
+  margin: 10px;
+  padding: 10px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.navbar {
+  background: #6c757d;
+  color: white;
+  padding: 10px 0;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar li {
+  display: inline-block;
+  line-height: 2rem;
+  padding: 0 10px;
+  margin-right: 1rem;
+}/*
+.navbar li:hover {
+  background: #343a40;
+  color: white;
+}*/
+/***********SECTION STYLE***********/
+.menu-title {
+  text-align: center;
+  font-weight: bold;
+}
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-item {
+  flex-basis: 30%;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.menu-item h4, .menu-item p, .menu-item a {
+  text-align: center;
+  text-transform: uppercase;
+}
+.image {
+  width: 100%;
+  border: 2px solid #343a40;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.add-cart-btn {
+  display: block;
+  background: red;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+/***********MOBILE VIEW***********/
+@media(max-width: 600px) {
+  .menu-list {
+    flex-direction: column;
+  }
+  .menu-item {
+    flex-basis: 100%;
+  }
+  .searchbar {
+    width: 100%;
+    margin: 2px;
+    padding: 2px 2px 2px 10px;
+  }
+}
+/***********TABLET VIEW***********/
+@media(max-width: 768px) {
+  .menu-item {
+    flex-basis: 40%;
+  }
+}
