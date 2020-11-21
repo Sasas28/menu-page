@@ -9,7 +9,7 @@ const Products = [
   {name: 'donuts', price: 183, image: 'images/donuts.jpg', category: 'fluffy'},
   {name: 'farmers bread', price: 90, image: 'images/farmers-bread.jpg', category: 'soft'},
   {name: 'long bread', price: 98, image: 'images/long-bread.gif', category: 'tasty'},
-  {name: 'mixed berries', price: 113, image: 'images/mixed-berries.gif', category: 'fluffy'},
+  {name: 'mixed berries', price: 113, image: 'images/mixed-berris.gif', category: 'fluffy'},
   {name: 'muffin', price: 150, image: 'images/muffin.jpg', category: 'soft'},
   {name: 'pretzel', price: 156, image: 'images/pretzel.jpg', category: 'tasty'},
   {name: 'roll', price: 103, image: 'images/roll.jpg', category: 'fluffy'},
