@@ -66,11 +66,12 @@ header {
   line-height: 2rem;
   padding: 0 10px;
   margin-right: 1rem;
-}/*
+}
 .navbar li:hover {
   background: #343a40;
   color: white;
-}*/
+  cursor: pointer;
+}
 /***********SECTION STYLE***********/
 .menu-title {
   text-align: center;
